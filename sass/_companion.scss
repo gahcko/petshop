@@ -1,0 +1,16 @@
+.companion {
+    padding: 123px 0 139px 0;
+    display: flex;
+    justify-content: space-between;
+    .companion_descr {
+        h3 {
+            font-family: 'Poppins';
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 44px;
+            text-align: center;
+            letter-spacing: -0.022em;
+            color: #333333;
+        }
+    } 
+}

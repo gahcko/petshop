@@ -1,0 +1,43 @@
+.about {
+    padding: 64px 0;
+    .about_wrap {
+        background-color: #D9E4E2;
+        border-radius: 50px;
+        display: flex;
+        justify-content: space-between;
+        padding: 44px 94px;
+        .about_descr {
+            max-width: 517px;
+            h2 {
+                text-align: left;
+                margin-top: 66px;
+            }
+            .services_descr {
+                text-align: left;
+            }
+            .about_check {
+                margin-top: 18px;
+                span {
+                    display: flex;
+                    flex-direction: column;
+                    right: -42px;
+                    position: relative;
+                    font-family: 'Poppins';
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 28px;
+                    letter-spacing: -0.017em;
+                    color: #5A5A5A;
+                    margin-bottom: 18px;
+                    &::before {
+                        position: absolute;
+                        content: url('../img/Square.png');
+                        width: 28px;
+                        height: 28px;
+                        left: -42px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,332 @@
+@media (max-width: 992px) {
+    .container {
+        max-width: 981px;
+    }
+    .menu {
+        padding: 0 10px;
+        nav {
+            margin-left: 0;
+        } 
+    }
+    .friend {
+        padding: 0 10px;
+    }
+    .testimoni {
+        padding: 0 10px;
+        .testimoni_wrap {
+            padding: 0 26px 0 20px;
+            &::after {
+                content: '';
+                width: 647px;
+            }    
+        }
+    }
+    .services {
+        padding: 0 10px;
+        .services_card {
+            .card_item {
+                min-width: 403px;
+            }
+        }
+    }
+    .companion {
+        padding: 123px 10px 139px 10px;
+    }
+    .about {
+        padding: 0 10px;
+        .about_wrap {
+            padding: 44px 74px;
+        }
+    }
+    .appointment {
+        padding: 91px 10px;
+    }
+    .news {
+        padding:0 10px;
+        .news_blocks {
+            justify-content: space-around;
+            flex-wrap: wrap;
+            .news_item:last-child {
+                margin-top: 20px;
+            }
+        }
+    }
+    .instagram {
+        padding: 74px 10px;
+        .photo {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .insta_photo {
+                justify-content: space-between;
+                img {
+                    margin-right: 0;
+                }
+                .last_big_photo {
+                    margin-left: 36px;
+                }
+            }
+            .small_photo {
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+            }
+        }
+    }
+    footer {
+        padding: 167px 10px 78px 10px;
+    }
+}
+
+
+@media (max-width: 768px) { 
+    .container {
+        max-width: 748px;
+    }
+    .menu {
+        padding: 0 10px;
+        nav {
+            ul {
+                a {
+                    margin-left: 20px;
+                }
+            }
+        } 
+    }
+    
+    .friend {
+        .friend_title {
+            h1 { 
+                font-size: 32px;
+            } 
+        }
+        .friend_img {
+            img {
+                max-width: 350px;
+            }
+        }
+    }
+    
+    .testimoni {
+        .testimoni_wrap {
+            &::after {
+                max-width: 347px;
+            }
+            .counter_item {
+                .counter_number {
+                    font-size: 26px;
+                }
+            }
+            .testimoni_descr {
+                max-width: 151px;
+            }
+        }
+    }
+    .services {
+        .services_card {
+            flex-wrap: wrap;
+        }
+    }
+
+    .companion {
+        padding: 83px 10px 89px 10px;
+        .companion_descr {
+            max-width: 261px;
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .about {
+        .about_wrap {
+            .about_descr {
+                max-width: 317px;
+                h2 {
+                    font-size: 28px;
+                    line-height: 34px;
+                }
+                .about_check {
+                    span {
+                        font-size: 13px;
+                        line-height: 18px;
+                        margin-bottom: 20px;
+                        &::before {
+                            bottom: -5px;
+                        }
+                    }
+                }
+            }
+            img {
+                width: 200px;
+            }
+        }
+    }
+
+    footer {
+        .footer_logo {
+            max-width: 241px;
+        }
+    }
+}
+
+@media (max-width: 577px) {
+    .container {
+        max-width: 300px;
+    }
+    .menu {
+        padding: 0 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        nav {
+            display: block;
+            ul {
+                a {
+                    margin-left: 10px;
+                    font-size: 14px;
+                }
+            }
+        }
+        .modal {
+            margin-top: 15px;
+        } 
+    }
+
+    .friend {
+        flex-direction: column;
+        h1 {
+            margin-top: 40px;
+        }
+        .friend_img {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .testimoni {
+        margin-top: 20px;
+        .testimoni_wrap {
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0;
+            &::after {
+                display: none;
+            }
+            .divider {
+                transform: rotate(90deg);
+            }
+        }
+    }
+
+    .services {
+        margin-top: 20px;
+        .services_card {
+            flex-direction: column;
+            .left {
+                margin-left: 0;
+                &::after {
+                    width: 0;
+                }
+            }
+            .card_item {
+                margin-top: 15px;
+                min-width: 260px;
+                padding: 0 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .testimoni_descr {
+                    max-width: 303px;
+                    text-align: left;
+                }
+
+            }
+        }
+    }
+
+    .companion {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .about {
+        flex-direction: column;
+        .about_wrap {
+            flex-direction: column;
+            .about_descr {
+                h2 {
+                    margin-top: 0;
+                }
+            }
+            img {
+                width: 100%;
+            }
+        }
+
+    }
+
+    .appointment {
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    .news {
+        margin-top: 0;
+        .news_blocks {
+            .news_item {
+                margin-top: 15px;
+                .news_img {
+                    max-width: 260px;
+                }
+            }
+        }
+    }
+
+    .instagram {
+        padding: 10px;
+        .photo {
+            .insta_photo {
+                flex-direction: column;
+                img {
+                    width: 260px;
+                }
+                .last_big_photo {
+                    width: 260px;
+                    margin-left: 0;
+                    margin-top: 10px;
+                }
+            }
+            .small_photo {
+                flex-direction: column;
+                margin-top: 5px;
+            }
+        }
+    }
+
+    footer {
+        flex-wrap: wrap;
+        padding: 20px;
+        .footer_link {
+            .link_title {
+                margin-bottom: 5px;
+                margin-top: 5px;
+            }
+            li {
+                margin-bottom: 5px;
+                a {
+                    font-size: 10px;
+                    line-height: 10px;
+                }
+            }
+        }
+
+    }
+}
+
+
+
+
+

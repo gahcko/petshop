@@ -1,0 +1,51 @@
+.testimoni {
+    font-family: 'Poppins';
+    min-height: 324px;
+    padding: 64px 0;
+    .testimoni_wrap {
+        position: relative;
+        min-height: 196px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 46px 0 40px;
+        border-radius: 10px;
+        background: linear-gradient(#FF9685, #F87661);
+        &::after {
+            content: '';
+            width: 847px;
+            min-height: 196px;
+            background: #F87661;
+            opacity: 0.5;
+            filter: blur(100px);
+            border-radius: 16px;
+            position: absolute;
+            top: 36px;
+            padding: 36px 117px;
+        }
+        .counter_item {
+            margin-right: 40px;
+            .counter_title {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.011em;
+            color: #FFFFFF;
+            }
+            .counter_number {
+                margin-top: 4px;
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 44px;
+                letter-spacing: -0.022em;
+                color: #FFFFFF;
+            }
+        }
+        .divider {
+            width: 1px;
+            height: 74px;
+            background: #FFFFFF;
+            margin-right: 36px;
+        }
+    }
+}

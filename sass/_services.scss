@@ -1,0 +1,79 @@
+.services {
+    min-height: 606px;
+    padding: 64px;
+    font-family: 'Poppins';
+
+
+    .services_card {
+        display: flex;
+        justify-content: center;
+        .card_item {
+            min-width: 483px;
+            min-height: 262px;
+            margin-top: 64px;
+            background-color: #FEE4DF;
+            display: flex;
+            padding: 0 25px;
+            border-radius: 10px;
+            .circle {
+                background-color: #FDD1CA;
+                margin-right: 26px;
+                margin-top: 46px;
+            }
+            .testimoni_descr {
+                max-width: 291px;
+                padding: 61px 0;
+
+                .testimoni_title {
+                    color: #5A5A5A;
+                }
+                .testimoni_text {
+                    color: #5A5A5A;
+                }
+            }
+            .services_btn {
+                margin-top: 14px;
+                width: 81px;
+                height: 44px;
+                background: #CF6251;
+                border-radius: 6px;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                align-items: center;
+                text-align: center;
+                letter-spacing: -0.006em;
+                color: #FFFFFF;
+                margin-left: 0;
+                border: none;
+            }
+        }
+        .left {
+            margin-left: 38px;
+            background: linear-gradient(#FF9685, #F87661);
+            position: relative;
+            &::after {
+                content: '';
+                width: 400px;
+                min-height: 196px;
+                background: #F87661;
+                opacity: 0.5;
+                filter: blur(100px);
+                border-radius: 16px;
+                position: absolute;
+                top: 136px;
+            }
+            .circle {
+                background-color: #CF6251;
+            }
+            .testimoni_descr {
+                .testimoni_title {
+                    color: #FFFFFF;
+                }
+                .testimoni_text {
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}

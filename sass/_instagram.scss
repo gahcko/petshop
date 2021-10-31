@@ -1,0 +1,28 @@
+.instagram {
+    font-family: 'Poppins';
+    padding: 74px 0 64px 0;
+    h2 {
+        p {
+            display: inline-block;
+            color: #F87661;
+        }
+    }
+    .photo {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 46px;
+        .insta_photo {
+            display: flex;
+            img {
+                margin-right: 36px;
+            }
+        }
+        .small_photo {
+            display: grid;
+            grid-template-columns: 151px 151px;
+            grid-template-rows: 165px 165px;
+            column-gap: 34px;
+            row-gap: 36px;
+        }
+    }
+}
